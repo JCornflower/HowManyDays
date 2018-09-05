@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="first">
+		<p class="tit">FIRST TASK</p1>
+		<div class="leftdiv">
+			<input type="date" id="myDate" value="2018-08-06"/>
+		</div>
+		<div class="buttons">
+			<button id="but1" onclick="countDown()">
+				Туды
+			</button>
+			<button id="but2" onclick="countUp()">
+				Сюды
+			</button>
+		</div>
+			</div>
+
+	<div class="second">
+		<p class="tit2">SECOND TASK</p1>
+		<div class="startDate">
+			<p class="stDate">START:</p>
+			<input type="date" id="myDate1" value=""/>
+		</div>
+		<div class="endDate">
+			<p class="enDate">END:</p>
+			<input type="date" id="myDate2" value=""/>
+		</div>
+		<div class="form">
+    		<input type="text" name="Days" id="place" placeholder="Days"/>
+    		<button id="count" onclick="deduct()">
+    		Count
+    		</button>
+		</div>
+		<div class="weekends">
+			<input type="text" name="Weekends" id="week" placeholder="Without weekends"/>
+    		<button id="count1" onclick="deductWeekends()">
+    		Count
+    		</button>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>

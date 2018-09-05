@@ -1,0 +1,61 @@
+body {
+	position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.tit, .tit2, .stDate, .enDate{
+	text-align: center;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.first{
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.leftdiv{
+	width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-right:166px;
+}
+
+
+input[type=date]{
+	font-size: 30px;
+	text-align: center;
+	padding-left: 80px;
+
+}
+.buttons{
+	display:flex;
+	justify-content: space-between;
+	width:365px;
+	height:40px;
+}
+button{
+	width:100px;
+}
+
+.second{
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.form, .weekends{
+	display: flex;
+	justify-content:  center;
+	margin-top: 50px; 
+}
+
+#count, #count1{
+	margin-left: 10px;
+}
+
+#place, #week{
+	text-align: center;
+}
